@@ -43,3 +43,27 @@ img {
   background-color: #c1c1c1;
   cursor: not-allowed;
 }
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  width: 177px;
+  margin: 177px auto;
+  font-weight: 700;
+  color: rgb(18, 141, 90);
+}
+
+.btn-form {
+  height: 40px;
+  width: 100px;
+
+  color: #212121;
+  border-radius: 15px;
+  border: 1px solid #000000;
+
+  cursor: pointer;
+  font-weight: 600;
+}
