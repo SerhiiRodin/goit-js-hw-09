@@ -16,3 +16,30 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+
+  margin: 200px auto;
+}
+
+.buttonAction {
+  /* text-transform: uppercase; */
+  height: 60px;
+  width: 130px;
+
+  color: #212121;
+  padding: 15px 20px;
+  border-radius: 15px;
+
+  border: 1px solid #000000;
+
+  cursor: pointer;
+}
+
+.buttonAction:disabled {
+  background-color: #c1c1c1;
+  cursor: not-allowed;
+}
