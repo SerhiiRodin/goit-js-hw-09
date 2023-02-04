@@ -67,3 +67,8 @@ img {
   cursor: pointer;
   font-weight: 600;
 }
+
+:disabled {
+  background-color: #c1c1c1;
+  cursor: not-allowed;
+}
