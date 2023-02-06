@@ -50,6 +50,9 @@ function onStartBtnClick(event) {
 
   setInterval(() => {
     let dif = fp.selectedDates[0] - Date.now();
+    if (dif < 0) {
+      return;
+    }
 
     getDateToTimer(convertMs(dif));
   }, 1000);
