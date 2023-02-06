@@ -14,12 +14,12 @@ function onFormeSubmit(event) {
     createPromise(i, delay)
       .then(value => {
         Notiflix.Notify.success(
-          `Fulfilled promise ${value.i} in ${value.delay}ms`
+          `Fulfilled promise ${i} in ${delay}ms`
         );
       })
       .catch(value => {
         Notiflix.Notify.failure(
-          `Rejected promise ${value.i}} in ${value.delay}ms`
+          `Rejected promise ${i} in ${delay}ms`
         );
       });
 
